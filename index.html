@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fff5f8">
+  <title>纸间 · 阅读与思考</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./journal.js"></script>
+</head>
+<body>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="book" viewBox="0 0 24 24"><path d="M12 6Q7 2 2 4v15q5-2 10 2 5-4 10-2V4q-5-2-10 2v15"/></symbol>
+    <symbol id="grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+    <symbol id="pen" viewBox="0 0 24 24"><path d="m4 16 12-12 4 4L8 20l-5 1zM13 7l4 4"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4m10-4v4M3 10h18"/></symbol>
+  </defs></svg>
+  <header><div class="bar wrap">
+    <a class="brand" href="#home"><span class="mark"><svg><use href="#book"/></svg></span>纸间<span class="brand-en">Paperlog</span></a>
+    <nav aria-label="主导航"><a href="#home">首页</a><a href="#notes">笔记索引</a><button id="about">关于</button></nav>
+    <a class="github" href="https://github.com/BATTERIA/Reading-and-Thinking">GitHub ↗</a>
+  </div></header>
+  <main class="wrap" id="home">
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><i></i> PERSONAL JOURNAL</div>
+      <h1>阅读<span>与</span>思考</h1>
+      <p>在字里行间慢读，在日常生活里思考。<br>这里是我的读书笔记与思考手记。</p>
+      <a class="cta" href="#notes">浏览笔记 <svg><use href="#arrow"/></svg></a></div>
+      <img class="hero-art" src="./art.svg" alt="">
+      <span class="edition">FIG. 01 &nbsp; / &nbsp; THE READING DESK</span>
+    </section>
+    <section id="notes">
+      <div class="section-head"><div><small>NOTE COLLECTION</small><h2>笔记手册</h2></div><span class="count" aria-live="polite"></span></div>
+      <div class="filters" aria-label="笔记分类">
+        <button data-type="all" aria-pressed="true"><svg><use href="#grid"/></svg>全部笔记</button>
+        <button data-type="reading" aria-pressed="false"><svg><use href="#book"/></svg>读书笔记</button>
+        <button data-type="thinking" aria-pressed="false"><svg><use href="#pen"/></svg>思考手记</button>
+      </div>
+      <div id="cards"></div>
+      <noscript>请启用 JavaScript 查看笔记。</noscript>
+    </section>
+  </main>
+  <footer class="wrap">纸间 · Paperlog <span>READING &amp; THINKING</span></footer>
+  <dialog aria-labelledby="dialog-title"><button class="close" autofocus aria-label="关闭">×</button><div id="detail"></div></dialog>
+</body></html>

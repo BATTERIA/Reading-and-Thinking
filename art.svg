@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="An open cream book rests on blue and coral volumes beneath a floating golden bookmark">
+  <defs>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".85" fill="#34445e" opacity=".46"/>
+    </pattern>
+    <path id="glint" d="M0-14C1-4 4-1 12 0 4 1 1 4 0 14-1 4-4 1-12 0-4-1-1-4 0-14Z"/>
+  </defs>
+  <g stroke="#283951" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="none" stroke="#8297ac" stroke-width="1.7">
+      <path d="M194 350q-27 19-6 25t66-6m500-204q48-27 62-15t-12 31" stroke-dasharray="1 7"/>
+      <path d="m227 293 27-11m-16 19 11-5m460 94 29-17m-14 17 12-7"/>
+    </g>
+    <g fill="#ffdb96" stroke-width="2">
+      <use href="#glint" transform="translate(208 200) rotate(12) scale(1.25)"/>
+      <use href="#glint" transform="translate(824 280) rotate(-7)"/>
+      <use href="#glint" transform="translate(525 68) scale(.68)"/>
+    </g>
+    <g fill="#a7cbd8" stroke-width="1.7">
+      <use href="#glint" transform="translate(235 178) scale(.47)"/>
+      <use href="#glint" transform="translate(799 297) scale(.5)"/>
+      <circle cx="273" cy="120" r="3.1"/><circle cx="770" cy="350" r="2.6"/>
+    </g>
+    <g id="coral-volume">
+      <path fill="#ed998b" d="m299 290 156-89 269 93q7 2 7 7v26q0 5-6 8l-150 88q-5 3-12 1l-263-91q-8-3-8-12v-21q0-7 7-10Z"/>
+      <path fill="#fac0ac" d="m296 293 156-91q3-2 8 0l267 93-156 94q-5 2-10 0Z"/>
+      <path fill="#f8dfc9" d="m573 391 154-91q-5 13-1 28l-153 90q-4-10 0-27Z"/>
+      <path fill="none" stroke="#ad887d" stroke-width="1.35" d="m584 396 106-63m-89 62 119-70m-144 86 19-11"/>
+      <path fill="url(#grain)" stroke="none" d="m299 310 265 92 1 17-265-92Z"/>
+      <path fill="#ffd4b7" d="m329 307 8 3q-5 11-1 30l-8-3q-4-18 1-30Zm195 67 8 3q-4 13-1 30l-8-3q-4-16 1-30Z"/>
+      <path fill="none" stroke="#fff0d6" stroke-width="2" d="m353 322 56 19m7 3 6 2"/>
+    </g>
+    <g id="blue-volume">
+      <path fill="#8bb5d4" d="m280 262 131-103 297 72q7 2 7 8v25q0 5-6 10l-126 99q-6 5-14 3l-286-69q-10-2-11-11v-22q0-7 8-12Z"/>
+      <path fill="#bad9e7" d="m277 265 132-105q3-2 8-1l294 73-134 106Z"/>
+      <path fill="#f4ecdb" d="m582 340 128-100q-5 12-1 27L581 368q-4-15 1-28Z"/>
+      <path fill="none" stroke="#a7a4a1" stroke-width="1.3" d="m589 344 75-59m-48 46 88-69m-122 98 20-16"/>
+      <path fill="url(#grain)" stroke="none" d="m279 287 292 71 1 14-290-70Z"/>
+      <path fill="#c5e0e6" d="m308 273 7 2q-6 17-2 36l-8-2q-3-20 3-36Zm225 56 7 1q-6 16-2 37l-8-2q-4-18 3-36Z"/>
+      <path fill="none" stroke="#dcecf0" stroke-width="1.7" d="m340 287 46 11m6 2 6 1"/>
+      <path fill="#e5c586" stroke-width="1.7" d="m416 312 5 7 8-3-5 6 4 7-8-5-6 4 3-7-5-6Z"/>
+    </g>
+    <g id="open-volume">
+      <path fill="#759ba8" d="m282 207 130-103 158 61 169 38 6 14-115 107q-3 3-8 1l-152-41q-9 5-17-3l-5-7-164-55q-5-2-2-12Z"/>
+      <path fill="#ebd5b3" d="m286 203 122-97q91 15 161 64 82-17 164 31l6 12-112 103q-74-38-154-39-10 4-17-5-76-34-170-57Z"/>
+      <path fill="none" stroke="#bda887" stroke-width="1.35" d="M293 209q88 21 155 54m31 9q70 0 144 36l106-96m-211 65q52 8 99 30"/>
+      <path fill="#fff4d9" d="M289 201q53-39 117-105 86 5 164 67L461 267q-61-46-172-66Z"/>
+      <path fill="#fff8e6" d="M461 267q32-46 109-104 76-18 162 32-48 54-108 107-86-45-163-35Z"/>
+      <path fill="#efdbb7" stroke="none" d="M461 264q50-64 109-98 17-4 34-3-65 33-130 99Z"/>
+      <path fill="none" stroke="#c9b18f" stroke-width="1.5" d="M301 198q65 11 112 36m66 26q38-39 64-58m69 91 8 4q56-49 99-98"/>
+      <g fill="none" stroke="#af9980" stroke-width="1.65">
+        <path d="M402 126q56 8 98 38m-110-27q55 9 97 38m-110-26q42 8 71 24"/>
+        <path d="M360 167q52 9 94 35m-105-24q28 4 50 14"/>
+      </g>
+      <g transform="matrix(.99 .25 -.78 .76 632 222)" stroke-width="1.8">
+        <circle r="24" fill="none" stroke="#b4a28a" stroke-dasharray="1 5"/>
+        <circle r="15" fill="#ffdd99"/>
+        <path fill="none" d="M0-10q8 0 10 7M0-30v-6m0 66v6m30-36h6m-66 0h-6m58-22 4-4m-48 48-4 4m48-4 4 4m-48-48-4-4"/>
+      </g>
+    </g>
+    <g id="loose-bookmark">
+      <path fill="none" stroke="#9d9bab" stroke-width="1.7" stroke-dasharray="1 6" d="M569 147c14-18 41-22 45-10s-20 14-18-2 29-20 44-37"/>
+      <path fill="#f6ce87" d="M627 64q16 0 28-12 19 17 12 35-8 18-2 31l-16-5-10 11q-9-21 0-39 5-12-12-21Z"/>
+      <path fill="#eaa771" d="M627 64q9-17 19-16 6 0 9 4-10 13-28 12Z"/>
+      <path fill="none" stroke="#ad7d5d" stroke-width="1.4" stroke-dasharray="1 4" d="M651 61q14 12 6 31-4 9-2 15"/>
+    </g>
+    <g fill="none" stroke-width="2">
+      <path d="m365 88-10-12m21 8-4-11m-16 25-14-5m391 83 10-12m-18 8 3-9"/>
+      <path stroke="#b0bec6" d="m322 378 47 16m6 2 9 3m250 11 28-16"/>
+    </g>
+  </g>
+</svg>
